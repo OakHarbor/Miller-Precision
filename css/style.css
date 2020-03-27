@@ -494,6 +494,14 @@
     background: var(--primary);
 }
 
+.pressure {
+    margin-bottom: 100px !important;
+}
+
+.drywall {
+    margin-bottom: 100px !important;
+}
+
 /* Iphone 5 */
 @media screen and (min-width: 300px) and (max-width: 330px) {
 
@@ -1060,6 +1068,14 @@
 
     .last {
         margin-bottom: 0;
+    }
+
+    .pressure {
+        margin-bottom: 170px !important;
+    }
+    
+    .drywall {
+        margin-bottom: 170px !important;
     }
 
     /*-- -------------------------- -->
