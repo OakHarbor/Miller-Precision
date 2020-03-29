@@ -7,7 +7,7 @@
 #hero {
     min-height: 400px;
     height: 400px;
-    background: url('/images/img-19-compressor.jpg');
+    background: url('/images/image-18.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -47,7 +47,7 @@
     position: absolute;
     width: 180px;
     height: 200px;
-    border: 10px solid rgba(253,118,45, .4);
+    border: 10px solid rgba(76,132,164, .4);
     z-index: -1;
 }
 

@@ -7,7 +7,7 @@
     min-height: 400px;
     height: 400px;
     height: 400px;
-    background: url('/images/img-4-compressor.jpg');
+    background: url('/images/home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -47,7 +47,7 @@
     position: absolute;
     width: 180px;
     height: 200px;
-    border: 10px solid rgba(253,118,45, .4);
+    border: 10px solid rgba(76,132,164, .4);
     z-index: -1;
 }
 
@@ -141,7 +141,7 @@
 <--- -------------------------- -*/
 
 #qualities {
-    background: url("/images/img-6-compressor.jpg");
+    background: url("/images/image-14.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -262,7 +262,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/img-5-compressor.jpg");
+    background: url("/images/image-11-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -331,7 +331,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/img-7-compressor.jpg");
+    background: url("/images/image-16-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -816,7 +816,7 @@
     }
 
     .about-container img {
-        height: 400px;
+        height: 310px;
         width: 300px;
     }
 
@@ -933,7 +933,7 @@
 
     .top-square h3 {
         width: 440px;
-        font-size: 1.563em;
+        font-size: 1.2em;
     }
 
     .right-square {
@@ -991,7 +991,7 @@
     .middle-square h3 {
         width: 440px;
         text-align: right;
-        font-size: 1.563em;
+        font-size: 1.2em;
     }
 
     .left-square {

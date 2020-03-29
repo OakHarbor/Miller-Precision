@@ -9,11 +9,15 @@
 	        box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 :root {
     --primary: #4C84A4;
     --dark: #0d364c;
     --light: #96dafe;
-    --secondary: #EB1D24;
+    --secondary: #a51419;
     --secondaryLight: #f7a5a7;
     --secondaryDark: #760f12;
 }
