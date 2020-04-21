@@ -7,7 +7,7 @@
     min-height: 400px;
     height: 400px;
     height: 400px;
-    background: url('/images/home.jpg');
+    background: url('/images/image-6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -141,7 +141,7 @@
 <--- -------------------------- -*/
 
 #qualities {
-    background: url("/images/image-14.jpg");
+    background: url("/images/image-10.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -262,7 +262,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/image-11-crop.jpg");
+    background: url("/images/image-10-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -331,7 +331,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images/image-16-crop.jpg");
+    background: url("/images/image-6-crop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -389,7 +389,7 @@
     height: 400px;
     width: 100%;
     margin-bottom: 50px;
-    background: url("/images//img-2-compressor.jpg");
+    background: url("/images/image-6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

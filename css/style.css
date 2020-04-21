@@ -7,7 +7,7 @@
 #hero {
     height: 650px;
     width: 100%;
-    background: url("/images/landing.jpg");
+    background: url("/images/image-10.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -256,7 +256,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background-attachment: url('/images/white-room.jpg');
+    background-attachment: url('/images/image-6.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
