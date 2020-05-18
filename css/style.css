@@ -256,7 +256,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background-attachment: url('/images/image-6.JPG');
+    background: url('/images/image-6.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -329,7 +329,7 @@
 
 .content:before {
     content: '';
-    opacity: .5;
+    opacity: .95;
     height: 100.09%;
     width: 100%;
     top: -1px;
@@ -660,7 +660,7 @@
 <---           REVIEWS          -->
 <--- -------------------------- -*/
 
-#trust-us {
+#review {
     background:url("../images/yellow-house.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -771,7 +771,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#trust-us:before {
+#review:before {
     content: '';
     height: 100.09%;
     width: 100%;
@@ -1613,7 +1613,7 @@
     <---        TESTIMONIALS        -->
     <--- -------------------------- -*/
 
-    #trust-us {
+    #review {
         background-attachment: fixed;
     }
 
