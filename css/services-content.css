@@ -1,0 +1,383 @@
+/*-- -------------------------- -->
+<---          CONTENT           -->
+<--- -------------------------- -*/
+
+
+#content .container {
+    max-width: 900px;
+}
+
+
+#content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#content h2 {
+    margin-bottom: 35px;
+    font-size: 2.5em;
+}
+
+#content h3 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.content-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    border-left: 4px solid var(--primary);
+    padding-left: 20px;
+}
+
+#content p {
+    margin-bottom: 20px;
+}
+
+.paint-calculator__title-img {
+    display: none !important;
+}
+
+.services-ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services-ul li {
+    margin-bottom: 35px;
+    line-height: 1.9em;
+}
+
+.no-dots {
+    list-style: none;
+}
+
+.no-dots li {
+    margin-bottom: 5px;
+}
+
+ol li {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+ol li.dark-mode:before {
+    content: counter(li);
+    color: var(--primary);
+    position: absolute;
+    left: -20px;
+    top: 3px;
+}
+
+li {counter-increment: li}
+
+.content-container p span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.content-container a {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#content span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.images {
+    margin-top: 50px;
+}
+
+#content img {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url('/images/epoxy-flooring.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+/*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+#hero {
+    min-height: 400px;
+    height: 400px;
+    height: 400px;
+    background: url('/images/epxy-flooring-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .2;
+    top: 0;
+    left: 0;
+}
+
+#home-h {
+    width: 280px;
+    text-align: center;
+    font-size: 3.438em;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 100;
+    height: 300px;
+}
+
+#home-h:before {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    border: 10px solid rgba(76,132,164, .4);
+    z-index: -1;
+}
+
+/* Tablets */
+@media screen and (min-width: 750px) and (max-width: 1025px) {
+
+    .mobile-nav {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 730px;
+    }
+
+    .mobile-menu {
+        max-width: 100% !important;
+    }
+
+    /*-- -------------------------- -->
+    <---           HERO             -->
+    /*--- -------------------------- -*/
+
+    #hero {
+        height: 200px;
+    }
+
+    .about-box {
+        width: 600px;
+        height: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-transform: translateY(140px);
+            -ms-transform: translateY(140px);
+                transform: translateY(140px);
+    }
+
+    .heroText h2 {
+        color: #fff;
+        font-size: 1em;
+        text-align: center;
+        padding: 30px 0;
+        width: 540px;
+        position: relative;
+        font-weight: normal;
+        margin: auto;
+    }
+
+    .about-box h1 {
+        font-size: 3.125em;
+    }
+
+    #content {
+        margin-top: 100px;
+    }
+
+    .images {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .images img {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+}
+
+/* Desktop */
+@media screen and  (min-width: 1026px) {
+
+    .banner {
+        background-position: center 90%;
+    }
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    #hero {
+        height: 600px;
+        background-attachment: fixed;
+        position: relative;
+        background-position: center;
+    }
+
+    #home-h {
+        width: 400px;
+        font-size: 4.375em;
+        -webkit-transform: translateY(50px);
+            -ms-transform: translateY(50px);
+                transform: translateY(50px);
+    }
+
+    #hero img {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 40;
+    }
+
+    .multi-family {
+        width: 600px !important;
+    }
+
+    .about-box {
+        width: 700px;
+        height: 200px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-transform: translateY(250px);
+            -ms-transform: translateY(250px);
+                transform: translateY(250px);
+    }
+
+    .about-box h1 {
+        font-size: 3.75em;
+        text-align: center;
+    }
+
+    #content {
+        margin-top: 100px !important;
+        margin-bottom: 100px;
+    }
+
+    #content .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .content-container {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+
+    #content img {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        width: 400px;
+        height: auto;
+        float: left;
+    }
+
+    .float {
+        float: left;
+        width: 250px;
+        margin: 40px 40px 0px 0;
+    }
+
+    .margin {
+        margin-bottom: 210px;
+    }
+
+    .float-h2 {
+        width: 385px;
+        margin: 0;
+        float: right;
+    }
+
+    .float-h2-res {
+        width: 318px;
+        float: right;
+    }
+
+    .float-h2-fence {
+        width: 318px;
+        float: right;
+    }
+    
+    .float-h2-com {
+        width: 318px;
+        float: right;
+    }
+
+    .residential {
+        width: 470px !important;
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+
+    .images {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .images img {
+        width: 200px !important;
+        height: auto !important;
+    }
+
+    #insert {
+        float: none !important;
+        margin-top: 30px;
+    }
+
+}
